@@ -8,10 +8,10 @@ class String
 
   def question?
     self.end_with?("?")
-
-  end
+ end
 
   def exclamation?
+    self.end_with?("!")
 
   end
 
